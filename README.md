@@ -3,7 +3,7 @@
 ## 📱 Overview
 FoodShare is an Android application designed to reduce food wastage by connecting donors with people in need.
 
-## 🚀 Features
+## Features
 - User Authentication
 - Donate Food
 - Request Food
@@ -11,14 +11,13 @@ FoodShare is an Android application designed to reduce food wastage by connectin
 - Offline Support using Room Database
 - Local Image Storage
 
-## 🛠 Tech Stack
+## Tech Stack
 - Kotlin
 - Android Studio
 - MVVM Architecture
 - Room Database
 
-## 📸 Screenshots
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="screenshots/Login.jpeg" width="200"/>
@@ -32,10 +31,10 @@ FoodShare is an Android application designed to reduce food wastage by connectin
   <img src="screenshots/Profile.jpeg" width="200"/>
 </p>
 
-## ⚙️ How to Run
+## How to Run
 1. Clone the repository
 2. Open in Android Studio
 3. Build & Run
 
-## 👨‍💻 Author
+## Author
 Ghanshyam More
