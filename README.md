@@ -1,6 +1,6 @@
 # FoodShare – Food Donation App
 
-## 📱 Overview
+## Overview
 FoodShare is an Android application designed to reduce food wastage by connecting donors with people in need.
 
 ## Features
