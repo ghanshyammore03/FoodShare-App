@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foodshare.ui.auth.LoginFragment"
+        android:label="@string/login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.foodshare.ui.auth.SignupFragment"
+        android:label="@string/signup">
+
+        <action
+            android:id="@+id/action_signupFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodshare.ui.home.HomeFragment"
+        android:label="@string/title_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_foodDetailsFragment"
+            app:destination="@id/foodDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/donateFragment"
+        android:name="com.example.foodshare.ui.donate.DonateFragment"
+        android:label="@string/donate" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.foodshare.ui.profile.ProfileFragment"
+        android:label="@string/profile" />
+
+    <fragment
+        android:id="@+id/foodDetailsFragment"
+        android:name="com.example.foodshare.ui.details.FoodDetailsFragment"
+        android:label="@string/food_details" />
+
+    <fragment
+        android:id="@+id/manageRequestsFragment"
+        android:name="com.example.foodshare.ui.requests.ManageRequestsFragment"
+        android:label="@string/manage_requests" />
+</navigation>
